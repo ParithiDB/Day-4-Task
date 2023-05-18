@@ -1,6 +1,6 @@
                   // Arrow Function
 
-var greet = (str) => {
+var Caps = (str) => {
    let capsArray = [];
 
   for (let i = 0; i < str.length; i++) {
@@ -12,6 +12,6 @@ var greet = (str) => {
   console.log(capsArray);
 
 };
-greet(['rajini','sachin','undertaker'])
+Caps(['rajini','sachin','undertaker'])
 
 //Output Link: https://jsfiddle.net/46bqhtkd/16/
